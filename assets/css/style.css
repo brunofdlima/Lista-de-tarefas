@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+  font-family: 'Poppins', sans-serif;
+}
+
+svg {
+  height: 1.5625rem;
+  padding-top: 0.3125rem;
+}
+
+h1 {
+  margin-bottom: 1.875rem;
+}
+
+.containerContent {
+  margin: 12.5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4db8ff;
+  width: 37.5rem;
+}
+
+.edits {
+  margin-bottom: 1.875rem;
+}
+
+.newTask {
+  height: 1.375rem;
+  width: 18.75rem;
+}
+
+.btnNewTask {
+  border: none;
+  width: 5rem;
+  height: 1.25rem;
+  transition: .8s;
+  border-radius: 0.3125rem;
+}
+
+.btnNewTask:hover {
+  background: #00e600;
+  cursor: pointer;
+}
+
+.apagar {
+  border: none;
+  border-radius: 0.3125rem;
+  transition: .8s;
+  width: 5rem;
+  margin-left: 1.25rem;
+}
+
+.apagar:hover {
+  cursor: pointer;
+  background: #ff1a1a;
+}
+
+li {
+  border: 0.125rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
